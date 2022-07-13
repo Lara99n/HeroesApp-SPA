@@ -1,0 +1,51 @@
+body {
+   background-image: url("https://scontent.cdninstagram.com/v/t1.15752-9/292550719_746582126658154_8961809866023721861_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5a057b&_nc_ohc=rSzTiDZffUgAX_WVtYQ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVJ_nRt8s1RbGjhvttCDDorzWJdwhJiFfjtyjL5l5uwt_g&oe=62F29597");
+}
+
+h2 {
+   font-size: 2.6rem;
+   margin-top: 1.5rem;
+   margin-left: 2rem;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card {
+   background-color:rgba(255, 255, 255, 0.911);
+   width: 41rem;
+   border-radius: 15px;
+   border: white;
+}
+
+.card:hover {
+   width: 42rem;
+   background-color: rgba(0, 0, 0, 0.788);
+   color: white;
+   transition: background-color .4s ease-in;
+   border: .1rem solid white;
+}
+
+.card img {
+   height: 20rem;
+   border-top-left-radius: 1.5rem;
+   border-bottom-left-radius: 1.5rem;
+}
+
+.card:hover img {
+   height: 21rem; 
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+.col{
+   margin-bottom:1rem;
+}
+
+p {
+   font-size: 2rem;
+   margin-top: 1.5rem;
+   margin-left: 3rem;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

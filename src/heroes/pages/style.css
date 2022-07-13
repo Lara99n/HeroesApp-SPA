@@ -1,0 +1,136 @@
+.dc {
+    font-size: 4rem;
+    margin-left: 53rem;
+    color: white;
+    text-transform: uppercase;
+}
+.marvel {
+    font-size: 4rem ;
+    margin-left: 46rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* HERO PAGE */
+img {
+    width: 38rem; 
+}
+
+b {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.nombre {
+    font-size: 5rem;
+    margin-left: 36rem;
+    color:#fff;
+}
+
+
+.heroes {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.contenedorDetalle {
+    padding: 3rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    width: 76rem;
+    height: 35rem;
+    background-color: rgba(0, 0, 0, 0.568);
+    border: .2rem solid rgb(32, 17, 241);
+    border-radius: 3rem;
+}
+
+.contenedorDetalle:hover {
+    background-color: rgba(35, 42, 107, 0.233); 
+    border: .2rem solid#fff;
+    transition: background-color .5s ease-in;
+    transition: border .5s ease-in;
+    transition: width .2s ease-in;
+    transition: height .2s ease-in;
+}
+
+.buton {
+    margin-left: 40rem;
+    margin-top: 2rem;
+    height: 4rem;
+    width: 10rem;
+    font-size: 2.2rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.568);
+    border: .2rem solid rgb(32, 17, 241);
+    border-radius: 1rem;   
+}
+
+.buton:hover {
+    background-color: rgba(35, 42, 107, 0.233);
+    border: .2rem solid #fff;
+    transition: background-color .5s ease-in;
+    transition: border .5s ease-in;
+}
+
+/* HERO PAGE */
+
+
+/* SEACCH PAGE */
+
+
+.contenedorForm {
+    padding: 3rem;
+    margin-left: 30rem;
+    margin-top: 10rem;
+    width: 70rem;
+    height: 45rem;
+    background-color: rgba(0, 0, 0, 0.568);
+    border: .2rem solid rgb(32, 17, 241);
+    border-radius: 3rem;
+    }
+    
+.contenedorForm:hover {
+    background-color: rgba(35, 42, 107, 0.233);
+    border: .2rem solid#fff;
+    transition: background-color .5s ease-in;
+    transition: border .5s ease-in;
+    transition: width .2s ease-in;
+    transition: height .2s ease-in;
+    }
+
+
+input {
+    height: 3rem;
+    margin-left: 17rem;
+}
+.button-form{
+    margin-left: 18em;
+    height: 3rem;
+    width: 6rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgba(35, 42, 107, 0.233);
+    border: .2rem solid #fff;
+    border-radius: 1rem;
+    }
+    
+.cartaSuperHeroe {
+    margin-top: 1rem;
+    margin-left: 11rem;
+}
+
+.noPersonaje {
+    margin-left: 9rem;
+    margin-top: 8rem;
+    font-size: 3rem;
+    color: rgb(255, 4, 4);
+    border-radius: 1rem;
+}
+   
+
+
+
+
+/* SEACCH PAGE */

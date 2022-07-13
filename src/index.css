@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* Es como un HACK, hace que 1REM sea igual a 10px */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
