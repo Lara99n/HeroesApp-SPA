@@ -1,12 +1,13 @@
 
 
 .buttonIngresar {
-    margin-left: 70rem;
+    margin-left: 62rem;
     margin-top: 30rem;
-    height: 10rem;
+    height: 9rem;
     width: 30rem;
     font-size: 5rem;
     color: #fff;
+ 
     background-color: rgba(0, 0, 0, 0.568);
     border: .2rem solid rgb(32, 17, 241);
     border-radius: 1rem;
@@ -15,10 +16,12 @@
 .buttonIngresar:hover {
     background-color: rgba(35, 42, 107, 0.233);
     border: .2rem solid #fff;
-    color: #000;
+    color: black;
+    text-shadow:0 0 4px #fff;
     transition: background-color .5s ease-in;
     transition: border .5s ease-in;
     transition: color .5s ease-in;
+
 }
 /* This only changes this particular animation duration */
 .animate__animated.animate__zoomIn {
