@@ -17,6 +17,8 @@ export const SearchPage = () => {
   const { searchText, onInputChange, onResetForm } = useForm({
     searchText: "",
   });
+  const showSearch = q.length === 0;
+  const showError = q.length > 0 && heroes.length === 0;
 
   const onSearchSubmit = (e) => {
     e.preventDefault();
@@ -31,10 +33,10 @@ export const SearchPage = () => {
     <>
       <div className="contenedorForm">
         <div className="col-5">
-          <form onSubmit={onSearchSubmit}>
+          <form className="formulario" onSubmit={onSearchSubmit}>
             <input
               type="text"
-              placeholder="Buscar heroe"
+              placeholder="Buscar..."
               className="form-control"
               name="searchText"
               value={searchText}
@@ -42,14 +44,23 @@ export const SearchPage = () => {
               autoComplete="off"
             />
             <br />
-            <button className="button-form">Buscar</button>
+            <button className="button-form">🔍</button>
           </form>
         </div>
-        <div className="noPersonaje">
-          {heroes.length === 0 && <div>No se encontro al heroe {q}:(</div>}
+        <div
+          className="alert alert-primary animate__animated animate__fadeIn alertaBuscar"
+          style={{ display: showSearch ? "" : "none" }}
+        >
+          Buscar SuperHeroe
         </div>
-
-        <div className="cartaSuperHeroe">
+        <div
+          className="alert alert-danger animate__animated animate__fadeIn alerta"
+          style={{ display: showError ? "" : "none" }}
+        >
+          {" "}
+          No encontramos al heroe {q}
+        </div>
+        <div className="cartaSuperHeroe ">
           {heroes.map((e) => (
             <HeroCard key={e.id} {...e} />
           ))}

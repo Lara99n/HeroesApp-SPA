@@ -101,9 +101,11 @@ b {
     }
 
 
-input {
-    height: 3rem;
+ input {
+    height: 4rem;
     margin-left: 17rem;
+
+   
 }
 .button-form{
     margin-left: 18em;
@@ -114,22 +116,32 @@ input {
     background-color: rgba(35, 42, 107, 0.233);
     border: .2rem solid #fff;
     border-radius: 1rem;
-    }
+}
+ 
+
     
 .cartaSuperHeroe {
     margin-top: 1rem;
     margin-left: 11rem;
 }
 
-.noPersonaje {
-    margin-left: 9rem;
+.alerta {
+    margin-left: .1rem;
     margin-top: 8rem;
     font-size: 3rem;
     color: rgb(255, 4, 4);
     border-radius: 1rem;
+    text-align: center;
 }
    
-
+.alertaBuscar {
+    margin-left: .1rem;
+    margin-top: 8rem;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    text-align: center;
+}
 
 
 
