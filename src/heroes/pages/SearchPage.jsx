@@ -42,6 +42,7 @@ export const SearchPage = () => {
               value={searchText}
               onChange={onInputChange}
               autoComplete="off"
+              size="10"
             />
             <br />
             <button className="button-form">🔍</button>

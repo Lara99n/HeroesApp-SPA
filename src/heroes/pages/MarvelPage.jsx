@@ -6,7 +6,9 @@ import "./style.css";
 export const MarvelPage = () => {
   return (
     <>
-      <h1 className="marvel animate__flash">Marvel Comics 🦸</h1>
+      <h1 className="marvel animate__animated animate__pulse animate__infinite">
+        <span className="colorM">Marvel</span> Comics
+      </h1>
       <br />
 
       <HeroList publisher="Marvel Comics" />

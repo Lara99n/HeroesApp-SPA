@@ -1,16 +1,18 @@
 .dc {
     font-size: 4rem;
-    margin-left: 53rem;
-    color: white;
+    margin-left: 56rem;
+    color: rgb(250, 245, 245);
     text-transform: uppercase;
 }
 .marvel {
     font-size: 4rem ;
-    margin-left: 46rem;
-    color: white;
+    margin-left: 47rem;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
 }
-
+.colorM {
+    color: blue;
+}
 
 /* HERO PAGE */
 img {
@@ -74,6 +76,11 @@ b {
     transition: border .5s ease-in;
 }
 
+.animate__animated.animate__pulse {
+    --animate-duration: 3s;
+
+}
+
 /* HERO PAGE */
 
 
@@ -104,9 +111,12 @@ b {
  input {
     height: 4rem;
     margin-left: 17rem;
-
-   
+    font-size: 10rem;
+    font-weight: 100;
 }
+
+
+
 .button-form{
     margin-left: 18em;
     height: 3rem;
@@ -144,5 +154,9 @@ b {
 }
 
 
-
+::placeholder {
+    color: blue;
+    font-size: 1.7em;
+}
 /* SEACCH PAGE */
+
