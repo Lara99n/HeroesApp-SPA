@@ -1,12 +1,12 @@
 .dc {
     font-size: 4rem;
-    margin-left: 56rem;
+    margin-left: 55rem;
     color: rgb(250, 245, 245);
     text-transform: uppercase;
 }
 .marvel {
     font-size: 4rem ;
-    margin-left: 47rem;
+    margin-left: 49rem;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
 }
@@ -30,7 +30,6 @@ b {
     margin-left: 36rem;
     color:#fff;
 }
-
 
 .heroes {
     font-size: 3rem;
@@ -115,21 +114,23 @@ b {
     font-weight: 100;
 }
 
+input[type="text"] {
+    font-size: 2.4rem;
+}
+
 
 
 .button-form{
-    margin-left: 18em;
-    height: 3rem;
+    margin-left: 28rem;
+    height: 4rem;
     width: 6rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #fff;
     background-color: rgba(35, 42, 107, 0.233);
     border: .2rem solid #fff;
     border-radius: 1rem;
 }
- 
-
-    
+  
 .cartaSuperHeroe {
     margin-top: 1rem;
     margin-left: 11rem;
@@ -137,7 +138,7 @@ b {
 
 .alerta {
     margin-left: .1rem;
-    margin-top: 8rem;
+    margin-top: 6rem;
     font-size: 3rem;
     color: rgb(255, 4, 4);
     border-radius: 1rem;
@@ -146,7 +147,7 @@ b {
    
 .alertaBuscar {
     margin-left: .1rem;
-    margin-top: 8rem;
+    margin-top: 6rem;
     font-size: 3rem;
     color: rgb(0, 0, 0);
     border-radius: 1rem;
@@ -154,9 +155,6 @@ b {
 }
 
 
-::placeholder {
-    color: blue;
-    font-size: 1.7em;
-}
+
 /* SEACCH PAGE */
 

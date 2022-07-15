@@ -1,9 +1,6 @@
 body {
    background-image: url("https://scontent.cdninstagram.com/v/t1.15752-9/292550719_746582126658154_8961809866023721861_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5a057b&_nc_ohc=rSzTiDZffUgAX_WVtYQ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVJ_nRt8s1RbGjhvttCDDorzWJdwhJiFfjtyjL5l5uwt_g&oe=62F29597");
-
 }
-
-
 
 h2 {
    font-size: 2.6rem;
@@ -16,25 +13,30 @@ h2 {
    background-color:rgba(255, 255, 255, 0.911);
    width: 41rem;
    border-radius: 15px;
-   border: white;
+   border: .3rem solid transparent
+   
 }
 
 .card:hover {
-   width: 42rem;
+   width: 41.5rem;
    background-color: rgba(0, 0, 0, 0.788);
    color: white;
    transition: background-color .4s ease-in;
-   border: .1rem solid white;
+   border: .3rem solid white;
 }
 
 .card img {
    height: 20rem;
-   border-top-left-radius: 1.5rem;
+   border-top-left-radius: 1.4rem;
    border-bottom-left-radius: 1.5rem;
 }
 
 .card:hover img {
-   height: 21rem; 
+   height: 20rem; 
+   border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+  
+
 }
 
 a {
